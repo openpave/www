@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="500"
+   height="198"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docname="openpave.svg"
+   sodipodi:docbase="C:\Documents and Settings\Jeremy Lea\Desktop">
+  <metadata
+     id="metadata1897">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="973"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.0104575"
+     inkscape:cx="493.49224"
+     inkscape:cy="58.930248"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg1"
+     height="198px"
+     width="500px" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient1702">
+      <stop
+         style="stop-color:#406040;stop-opacity:1"
+         offset="0"
+         id="stop1703" />
+      <stop
+         style="stop-color:white;stop-opacity:1"
+         offset="1"
+         id="stop1704" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1702"
+       id="linearGradient6342"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.998988,0,0,1.001013,-550.0113,-243.0528)"
+       x1="697.81403"
+       y1="469.34937"
+       x2="693.95911"
+       y2="282.05112" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1702"
+       id="linearGradient11706"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.998988,0,0,1.001013,-550.0113,-243.0528)"
+       x1="697.81403"
+       y1="469.34937"
+       x2="693.95911"
+       y2="282.05112" />
+  </defs>
+  <g
+     id="g11690"
+     transform="matrix(0.893213,0,0,0.893213,-21.45839,-104.6759)">
+    <g
+       transform="matrix(0.410848,0,0,0.410848,20.83711,115.7991)"
+       id="g6335">
+      <path
+         id="path1072"
+         style="fill:url(#linearGradient11706);fill-opacity:1;fill-rule:evenodd;stroke:#204020;stroke-width:5.31500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,88.62758,109.2642)"
+         d="M 138.57991,6.78049 L 6.59907,235.5473 L 236.83232,368.9946 L 368.07995,138.76134 L 138.57991,6.78049 z " />
+      <path
+         id="path1375"
+         style="fill:#ffd500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(-0.96191,0,0,2.378293,642.8822,-557.6439)"
+         d="M 541.65031,412.07539 C 475.90592,396.8747 332.67561,387.82935 243.26465,396.25512 C 353.86125,367.86183 449.27161,328.23467 352.04392,308.96956 L 359.37432,307.26425 C 497.12144,316.76586 562.51271,357.94275 541.65031,412.07539 z "
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1393"
+         style="fill:#404040;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(-0.96191,0,0,2.378293,642.8822,-557.6439)"
+         d="M 352.61156,308.848 C 473.07133,332.90823 309.01607,381.37182 258.41743,399.82466 C 315.82662,387.13004 474.94081,386.37349 529.17901,414.58577 C 571.01978,324.49864 395.09992,310.12463 358.7346,307.43441 L 352.61156,308.848 z "
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path6307"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#204020;stroke-width:5.31496048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,88.62758,109.2642)"
+         d="M 368.0078,138.7863 L 138.45914,7.03602" />
+      <path
+         id="path1381"
+         style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(-0.96191,0,0,2.378293,642.8822,-557.6439)"
+         d="M 356.0972,307.99275 C 456.53672,321.29104 470.12582,347.48148 405.31051,390.71234 C 415.02608,387.66017 420.49437,388.84541 424.79827,391.89186 C 475.17726,351.35545 469.26375,321.55084 356.0972,307.99275 z "
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       transform="matrix(6.15823,0,0,7.96224,-1599.875,-1814.187)"
+       id="text6344"
+       y="257.30917"
+       x="291.94696"
+       style="font-size:9.66335678px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:gray;fill-opacity:0.49803922;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Impact"
+       xml:space="preserve"><tspan
+         y="257.30917"
+         x="291.94696"
+         id="tspan6346"
+         sodipodi:role="line">OpenPave.org</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.66335678px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Impact"
+       x="291.94696"
+       y="257.30917"
+       id="text7233"
+       transform="matrix(6.15823,0,0,7.96224,-1602.448,-1817.162)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7235"
+         x="291.94696"
+         y="257.30917">OpenPave.org</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:gray;fill-opacity:0.49803922;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial Black"
+       x="298.87451"
+       y="338.46054"
+       id="text9017"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.601105,0,0,0.601105,20.9738,59.28507)"><tspan
+         sodipodi:role="line"
+         id="tspan9019"
+         x="298.87451"
+         y="338.46054">Open Source Pavement Engineering</tspan></text>
+    <text
+       transform="matrix(0.601105,0,0,0.601105,19.18914,57.50042)"
+       sodipodi:linespacing="125%"
+       id="text8128"
+       y="338.46054"
+       x="298.87451"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial Black"
+       xml:space="preserve"><tspan
+         y="338.46054"
+         x="298.87451"
+         id="tspan8130"
+         sodipodi:role="line">Open Source Pavement Engineering</tspan></text>
+  </g>
+</svg>

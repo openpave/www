@@ -1,0 +1,333 @@
+/*
+ * $OpenPave: www/css/openpave.css,v 1.1 2006/10/26 23:34:29 reg Exp $
+ */
+
+html {
+    height: 100%;
+    margin: 0px 0px 0.2px 0px;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    border-style: none;
+    min-width: 800px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #435A43;
+}
+
+img {
+    border: 0px solid;
+    margin: 0px;
+    padding: 0px;
+}
+
+object {
+    border: 0px solid;
+    margin: 0px;
+    display: block;
+}
+
+.hide {
+  display: none;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #435A43;
+}
+
+a:visited {
+    color: #708670;
+}
+
+a:hover, a:active {
+    color: #A0C0A0;
+}
+
+#topbar {
+    border-style: none;
+    height: 230px;
+    color: white;
+    border: 0px solid;
+    margin: 0px;
+    padding: 0px 30% 0px 30%;
+    color: white;
+    background: black url(../images/openpave-topbar.png) no-repeat top right;
+}
+
+#topbar[id] {
+    width: 40%;
+}
+
+* html #topbar { /* Another IE6 hack... */
+    padding: 0px 300px 0px 300px;
+}
+
+#logo {
+    margin: 0px 0px 0px -250px;
+    padding: 0px;
+    padding-top: 195px;
+    height: 0px;
+    width: 600px;
+    overflow: hidden;
+    background: transparent url(../images/openpave.gif) no-repeat 0px 0px;
+}
+
+#logo[id] { /* Hack to hide this from IE */
+    background-image: url(../images/openpave.png);
+}
+
+* html #logo { /* Another IE6 hack... */
+    margin-left: -150px;
+}
+
+#search {
+    display: block;
+    float: right;
+}
+
+#sitenav {
+    height: 34px;
+    text-align: right;
+    border: 0px solid;
+    border-top: 1px solid white;
+    margin: 0px -75% 0px -75%;
+    padding: 0px 30% 0px 0px;
+    color: white;
+    background: #435A43 url(../images/openpave-sitenav-b.gif) repeat-x;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+* html #sitenav { /* Another IE6 hack... */
+    margin: 0px -300px 0px -300px;
+    padding-right: 120px;
+}
+
+#sitenav ul {
+    border: 0px solid;
+    margin: 0px -120px 0px 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+* html #sitenav ul { /* Another IE6 hack... */
+    margin-right: 0px;
+}
+
+#sitenav li {
+    margin: 0px;
+    padding: 0px;
+    border 0px solid;
+    display: inline;
+    text-decoration: none;
+}
+
+#sitenav li a, #sitenav li.active, #sitenav li.last {
+    border: 0px;
+    border-left: 1px solid #FFFFFF;
+    margin: 0px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+    color: white;
+    background: #425A43 url(../images/openpave-sitenav-b.gif) repeat-x;
+}
+
+#sitenav li a:hover, #sitenav li.active {
+    background: #608060 url(../images/openpave-sitenav-a.gif) repeat-x;
+}
+
+#sitenav li.last {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#content {
+    padding: 10px 30% 10px 30%;
+    margin: 0px;
+    color: black;
+    min-height: 400px;
+    background-color: white;
+}
+
+#content[id] {
+    border: 1px solid white; /* bug in firefox ? */
+}
+
+* html #content { /* Another IE6 hack... */
+    padding: 10px 300px 10px 300px;
+    height: 400px;
+}
+
+#sectnav {
+    margin: 20px 0px 0px -200px;
+    padding: 10px 15px 110px 15px;
+    width: 152px;
+    min-height: 150px;
+    float: left;
+    border: 2px solid #435A43;
+    border-bottom: 0px solid;
+    background: #608060 url(../images/openpave-sectnav.gif) bottom repeat-x;
+    color: white;
+}
+
+* html #sectnav { /* Another IE6 hack... */
+    margin-left: -70px;
+}
+
+#sectnav a {
+    color: white;
+}
+
+/*
+
+This should have looked nice, but it looks ugly... 
+
+#sectnav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#sectnav li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#sectnav li a, #sectnav li.active {
+    display: block;
+    padding: 8px 6px 8px 24px;
+    width: 122px;
+    height: 14px;
+    line-height: 14px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #435A43 url(../images/openpave-sectnav-b.gif) no-repeat;
+}
+
+#sectnav li a:hover {
+    background: #435A43 url(../images/openpave-sectnav-a.gif) no-repeat;
+}
+
+#sectnav li a.active, #sectnav li a.active:hover, #sectnav li.active {
+    background: #608060 url(../images/openpave-sectnav-a.gif) no-repeat;
+}
+
+#sectnav li li a, #sectnav li li.active {
+    font-weight: normal;
+    padding-left: 30px;
+    width: 116px;
+}
+*/
+
+#sectnav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: inside;
+    font-size: small;
+}
+
+#sectnav li {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#sectnav li a:hover {
+    text-decoration: underline;
+}
+
+#sectnav li a.active, #sectnav li a.active:hover, #sectnav li.active {
+    text-decoration: none;
+}
+
+#sectnav ul ul {
+    margin-left: 1em;
+}
+
+#sectnav li li {
+    font-weight: normal;
+}
+
+
+  #login { border: medium none ;
+    margin: 5px 10px 0px;
+    padding: 0px;
+    width: 100px;
+    font-size: 8pt;
+    color: white;
+    text-align: center;
+    }
+
+  #login input { color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60%;
+    }
+
+#body {
+    margin-left: 15px;
+    margin-right: -150px;
+    font-size: medium;
+    font-family: Verdana, Arial,Helvetica,sans-serif;
+}
+
+* html #body { /* Another IE6 hack... */
+    margin-left: 70px;
+}
+
+#body dt {
+  font-style: italic;
+}
+
+#body h2 {
+    font-variant: small-caps;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer {
+    clear: both;
+    height: 10px;
+    margin: 0px;
+    padding: 0px 30% 0px 30%;
+    background: #435A43 url(../images/openpave-footer.gif) repeat-x;
+}
+
+#footer[id] {
+    width: 40%;
+}
+
+* html #footer { /* Another IE6 hack... */
+    padding: 0px 300px 0px 300px;
+}
+
+#copyright {
+    position: relative;
+    top: -4em;
+    left: -200px;
+    height: 3em;
+    margin: 0px 5px 0px 11px;
+    width: 158px;
+    padding: 4px;
+    font-size: x-small;
+    text-align: right;
+    background-color: transparent;
+    color: #202020;
+}
+
+* html #copyright { /* Another IE6 hack... */
+    left: -140px;
+}

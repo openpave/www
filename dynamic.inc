@@ -1,0 +1,172 @@
+<?php
+
+/*
+ * $OpenPave: www/dynamic.inc,v 1.1 2006/10/26 23:34:20 reg Exp $
+ */
+
+//require('adodb/adodb.inc.php');
+require($depth.'toc.inc');
+
+/*
+ * Fix up quoted variables in all the pages if needed.
+ */
+if (get_magic_quotes_gpc()) {
+	foreach ($_GET as $k => $v)
+		$_GET[$k] = (is_array($v) ? $v : stripslashes($v));
+	foreach ($_POST as $k => $v)
+		$_POST[$k] = (is_array($v) ? $v : stripslashes($v));
+	foreach ($_COOKIE as $k => $v)
+		$_COOKIE[$k] = (is_array($v) ? $v : stripslashes($v));
+}
+
+$active = $_SERVER['PHP_SELF'];
+$active = substr($active,strrpos($active,'/')+1);
+$active = str_replace('.php','',$active);
+
+foreach($toc as $k => $v) {
+	foreach($v as $p => $s) {
+		if (is_array($s)) {
+			foreach(array_keys($s) as $a) {
+				if ($a == $active) {
+					$section = $k;
+					$subsection = $p;
+				}
+			}
+		} else {
+			if ($p == $active) {
+				$section = $k;
+				$subsection = $p;
+			}
+		}
+	}
+}
+if (!isset($section) || !isset($subsection)) {
+	exit("There is a configuration error! Please contact the webmaster.");
+}
+
+function make_li_link($k,$v) {
+	global $depth, $active;
+	
+	$k = ($k == $active ? 'active' : $depth.$k.'.php');
+	if ($i = strpos($v,'<'))
+		$k = substr($v,$i+1,strpos($v,'>')-$i-1);
+	$v = trim(ereg_replace('<.*>','',$v));
+	$v = trim(ereg_replace('\[.*\]','',$v));
+	if ($k == 'active')
+		return "<li class=\"active\">$v";
+	else
+		return "<li><a href=\"$k\">$v</a>";
+}
+
+function StartHTML()
+{
+	global $depth, $toc, $section, $subsection, $active;
+
+	$title = 'OpenPave.org';
+	if ($section != 'index')
+		$title .= '::'.$toc[$section][$section];
+	if ($subsection != $section) {
+		if (is_array($toc[$section][$subsection]))
+			$title .= '::'.str_replace(array('[',']'),'',
+					$toc[$section][$subsection][$active]);
+		else
+			$title .= '::'.$toc[$section][$subsection];
+	}
+	$title = ereg_replace('<.*>','',$title);
+?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="<?php echo $depth; ?>css/openpave.css" />
+<title><?php echo $title ?></title>
+</head>
+<body>
+<div id="topbar">
+<?php /*
+<div id="search">
+<form action="http://www.FreeBSD.org/cgi/search.cgi" method="get">
+<h2 class="hide"><label for="words">Search</label></h2>
+<input class="text" name="words" type="text" size="20" maxlength="255"
+onfocus="if( this.value==this.defaultValue ) this.value='';" value="Search" />
+<input class="submit" name="submit" type="submit" value="Search" />
+</form>
+</div>
+*/ ?>
+<h1 id="logo">OpenPave.org</h1>
+
+<div id="sitenav">
+<h2 class="hide">Site Navigation</h2>
+<?php
+	echo '<ul>';
+	foreach($toc as $k => $v) {
+		if ($k != $section)
+			echo "<li><a href=\"$depth$k.php\">".$v[$k].'</a></li>';
+		else
+			echo "<li class=\"active\">".$v[$k].'</li>';
+	}
+	echo "<li class=\"last\">&nbsp;</li></ul>\n";
+?>
+</div>
+</div>
+<div id="content">
+
+<div id="sectnav">
+<h2 class="hide">Section Navigation</h2>
+<?php
+	echo '<ul>';
+	foreach($toc[$section] as $k => $v) {
+		if (is_array($v)) {
+			echo make_li_link($k,$v[$k])."\n<ul>\n";
+			foreach($v as $a => $s) {
+				if ($a == $k)
+					continue;
+				echo " ".make_li_link($a,$s)."</li>\n";
+			}
+			echo "</ul></li>\n";
+		} else {
+			echo make_li_link($k,$v)."</li>\n";
+		}
+	}
+	echo "</ul>\n";
+?>
+</div>
+<div id="body">
+<?php
+}
+
+/*
+ * Finish off the page.  No output after this...
+ */
+function FinaliseHTML($op_cvs)
+{
+?>
+</div>
+
+</div>
+
+<div id="footer">
+ <div id="copyright">&copy; 2006, Openpave.org.<br>
+  <a href="mailto:www@openpave.org">Contact the webmaster.</a><br>
+  <?php echo $op_cvs; ?>
+ </div>
+</div>
+
+<!--<p>
+<a href="http://validator.w3.org/check?uri=referer"><img
+	src="http://www.w3.org/Icons/valid-xhtml10"
+	alt="Valid XHTML 1.0!" height="31" width="88"/></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+  <img style="border:0;width:88px;height:31px"
+       src="http://jigsaw.w3.org/css-validator/images/vcss" 
+       alt="Valid CSS!" /></a>
+</p>-->
+
+</body>
+</html>
+<?php
+}
+
+?>
