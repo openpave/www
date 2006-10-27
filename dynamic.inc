@@ -1,7 +1,7 @@
 <?php
 
 /*
- * $OpenPave: www/dynamic.inc,v 1.1 2006/10/26 23:34:20 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.2 2006/10/27 00:06:57 reg Exp $
  */
 
 //require('adodb/adodb.inc.php');
@@ -150,7 +150,9 @@ function FinaliseHTML($op_cvs)
 <div id="footer">
  <div id="copyright">&copy; 2006, Openpave.org.<br>
   <a href="mailto:www@openpave.org">Contact the webmaster.</a><br>
-  <?php echo $op_cvs; ?>
+  <span class="op_cvs"><?php
+  	 echo str_replace(array('www/',',v','Exp '),array('','<br>',''),$op_cvs);
+  ?></span>
  </div>
 </div>
 

@@ -1,5 +1,5 @@
 /*
- * $OpenPave: www/css/openpave.css,v 1.1 2006/10/26 23:34:29 reg Exp $
+ * $OpenPave: www/css/openpave.css,v 1.2 2006/10/27 00:07:01 reg Exp $
  */
 
 html {
@@ -316,12 +316,12 @@ This should have looked nice, but it looks ugly...
 
 #copyright {
     position: relative;
-    top: -4em;
+    top: -5.5em;
     left: -200px;
-    height: 3em;
-    margin: 0px 5px 0px 11px;
-    width: 158px;
-    padding: 4px;
+    height: 4.5em;
+    margin: 0px;
+    width: 180px;
+    padding: 0px;
     font-size: x-small;
     text-align: right;
     background-color: transparent;
