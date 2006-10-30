@@ -1,7 +1,7 @@
 <?php
 
 /*
- * $OpenPave: www/dynamic.inc,v 1.2 2006/10/27 00:06:57 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.3 2006/10/30 23:03:09 reg Exp $
  */
 
 //require('adodb/adodb.inc.php');
@@ -107,7 +107,7 @@ onfocus="if( this.value==this.defaultValue ) this.value='';" value="Search" />
 		else
 			echo "<li class=\"active\">".$v[$k].'</li>';
 	}
-	echo "<li class=\"last\">&nbsp;</li></ul>\n";
+	echo "</ul>\n";
 ?>
 </div>
 </div>
