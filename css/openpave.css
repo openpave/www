@@ -1,7 +1,7 @@
 /*
  *  openpave.css - Global styles for www.openpave.org
  *
- *  $OpenPave: www/css/openpave.css,v 1.4 2007/02/08 19:18:13 reg Exp $
+ *  $OpenPave: www/css/openpave.css,v 1.5 2007/02/09 19:26:05 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -147,7 +147,7 @@ a:hover, a:active {
 #sitenav li {
     margin: 0px;
     padding: 0px;
-    border 0px solid;
+    border: 0px solid;
     display: inline;
     text-decoration: none;
 }
