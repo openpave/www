@@ -1,7 +1,7 @@
 /*
  *  openpave.css - Global styles for www.openpave.org
  *
- *  $OpenPave: www/css/openpave.css,v 1.7 2007/09/11 18:11:58 reg Exp $
+ *  $OpenPave: www/css/openpave.css,v 1.8 2007/09/15 01:50:41 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -318,6 +318,21 @@ This should have looked nice, but it looks ugly...
     font-size: large;
     font-weight: bold;
     text-align: center;
+}
+
+#body h3 {
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+}
+
+#body pre {
+    background: #A0C0A0;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    border: dashed #435A43 1px;
+    padding: 15px 20px 15px 20px;
+    overflow: auto;
 }
 
 #footer {

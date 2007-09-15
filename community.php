@@ -2,7 +2,7 @@
 /*
  *  community.php - OpenPave.org Community
  *
- *  $OpenPave: www/community.php,v 1.2 2007/02/08 19:18:04 reg Exp $
+ *  $OpenPave: www/community.php,v 1.3 2007/09/15 01:50:35 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -42,16 +42,7 @@ chosen because of its good <a href="http://www.wincvs.org/">Windows
 support</a>.  The OpenPave.org CVS Repository can be browsed online at
 <a href="/cgi-bin/cvsweb.cgi/">
 http://www.openpave.org/cgi-bin/cvsweb.cgi/</a>, although to use the
-code you will need a CVS client.  If you are using Windows,
-<a href="http://www.wincvs.org/">WinCVS</a> is the best solution.  Other
-operating systems normally include CVS.  The CVS can be accessed
-anonymously via these commands.</p>
-
-<p><pre>
-cvs -d:pserver:anonymous@cvs.openpave.org:/home/cvs login
-
-cvs -d:pserver:anonymous@cvs.openpave.org:/home/cvs co <i>module</i> 
-</pre></p>
+code you will need to follow the build instructions.</p>
 
 <p>The other major component of community is mailing lists, which
 provide the forum for discussion.  There are a number of OpenPave.org
@@ -64,5 +55,5 @@ can be accessed via at <a href="/cgi-bin/roundup.cgi/roundup/">
 http://www.openpave.org/cgi-bin/roundup.cgi/roundup/</a>.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/community.php,v 1.2 2007/02/08 19:18:04 reg Exp $');
+FinaliseHTML('$OpenPave: www/community.php,v 1.3 2007/09/15 01:50:35 reg Exp $');
 ?>

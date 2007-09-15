@@ -2,7 +2,7 @@
 /*
  *  toc.inc - Master Table of Contents for website
  *
- *  $OpenPave: www/toc.inc,v 1.2 2007/02/08 19:18:04 reg Exp $
+ *  $OpenPave: www/toc.inc,v 1.3 2007/09/15 01:50:35 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -41,7 +41,8 @@ $toc = array(
     'projects' => 'Projects'
   ),
   'documents' => array(
-    'documents' => 'Documentation'
+    'documents' => 'Documentation',
+    'building' => 'Build Instructions'
   ),
   'community' => array(
     'community' => 'Community',
