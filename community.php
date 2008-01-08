@@ -2,7 +2,7 @@
 /*
  *  community.php - OpenPave.org Community
  *
- *  $OpenPave: www/community.php,v 1.3 2007/09/15 01:50:35 reg Exp $
+ *  $OpenPave: www/community.php,v 1.4 2008/01/08 23:47:59 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -17,9 +17,7 @@
  *  the License for the specific language governing rights and
  *  limitations under the License.
  *
- *  The Original Code is OpenPave.org Web pages.
- *
- *  The Initial Developer of the Original Code is OpenPave.org.
+ *  The Initial Developer of the Original Software is Jeremy Lea.
  *
  *  Portions Copyright (C) 2006 OpenPave.org.
  *
@@ -55,5 +53,5 @@ can be accessed via at <a href="/cgi-bin/roundup.cgi/roundup/">
 http://www.openpave.org/cgi-bin/roundup.cgi/roundup/</a>.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/community.php,v 1.3 2007/09/15 01:50:35 reg Exp $');
+FinaliseHTML('$OpenPave: www/community.php,v 1.4 2008/01/08 23:47:59 reg Exp $');
 ?>

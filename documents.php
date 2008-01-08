@@ -2,7 +2,7 @@
 /*
  *  documents.php - OpenPave.org Documentation
  *
- *  $OpenPave: www/documents.php,v 1.2 2007/02/08 19:18:04 reg Exp $
+ *  $OpenPave: www/documents.php,v 1.3 2008/01/08 23:47:59 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -17,9 +17,7 @@
  *  the License for the specific language governing rights and
  *  limitations under the License.
  *
- *  The Original Code is OpenPave.org Web pages.
- *
- *  The Initial Developer of the Original Code is OpenPave.org.
+ *  The Initial Developer of the Original Software is Jeremy Lea.
  *
  *  Portions Copyright (C) 2006 OpenPave.org.
  *
@@ -37,6 +35,12 @@ StartHTML();
 on running and programming the software.  Here you will find some guides
 on getting started, and on using and programming.</p>
 
+<dl>
+<dt><a href="building.php">OpenPave.org Build Instructions</a></dt>
+	<dd>Instructions for downloading and building OpenPave.org
+	software</dd>
+</dl>
+
 <?php
-FinaliseHTML('$OpenPave: www/documents.php,v 1.2 2007/02/08 19:18:04 reg Exp $');
+FinaliseHTML('$OpenPave: www/documents.php,v 1.3 2008/01/08 23:47:59 reg Exp $');
 ?>

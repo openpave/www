@@ -2,7 +2,7 @@
 /*
  *  building.php - OpenPave.org Documentation
  *
- *  $OpenPave: www/building.php,v 1.1 2007/09/15 01:50:35 reg Exp $
+ *  $OpenPave: www/building.php,v 1.2 2008/01/08 23:47:59 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -17,9 +17,7 @@
  *  the License for the specific language governing rights and
  *  limitations under the License.
  *
- *  The Original Code is OpenPave.org Web pages.
- *
- *  The Initial Developer of the Original Code is OpenPave.org.
+ *  The Initial Developer of the Original Software is Jeremy Lea.
  *
  *  Portions Copyright (C) 2006 OpenPave.org.
  *
@@ -78,8 +76,8 @@ code, you should create an opconfig file.  Particularly, this allows you to
 control which of the projects are checkout and built.  You can copy and
 paste the example below, saving it either in the directory where you run the
 checkout command above, the openpave directory it created, or in your home
-directoy.  The file should be named "opconfig". If you wish to name it
-something else set the enironment variable OPCONFIG to the full path and
+directory.  The file should be named "opconfig". If you wish to name it
+something else set the environment variable OPCONFIG to the full path and
 filename of the file.</p>
 
 <pre>
@@ -97,12 +95,12 @@ ac_add_options --enable-optimize="-O3 -march=pentium3"
 
 <dl>
 <dt>OP_PROJECTS</dt>
-	<dd>Comma seperated list of projects to build.  See the top of
+	<dd>Comma separated list of projects to build.  See the top of
 	openpave.mk for options.</dd>
 <dt>OP_CVS_ARGS</dt>
-	<dd>Additional arguements for CVS.</dd>
+	<dd>Additional arguments for CVS.</dd>
 <dt>OP_CO_ARGS</dt>
-	<dd>Additional arguements for CVS checkout (default is -P).</dd>
+	<dd>Additional arguments for CVS checkout (default is -P).</dd>
 <dt>OP_CO_DATE</dt>
 	<dd>Check out at a particular date.</dd>
 <dt>OP_CO_TAG</dt>
@@ -113,7 +111,7 @@ ac_add_options --enable-optimize="-O3 -march=pentium3"
 	<dd>If set, run autoconf locally.  For when you're planning on
 	editing configure.in</dd>
 <dt>OP_MAKE_ARGS</dt>
-	<dd>Additional arguements to pass to make.</dd>
+	<dd>Additional arguments to pass to make.</dd>
 </dl>
 
 <p>The following <strong>ac_add_options</strong> are available, along with a
@@ -126,7 +124,7 @@ number of options normally available for a autoconf build (see configure
 	flags.</dd>
 <dt>--enable-debug-rtl</dt>
 	<dd>Enable linking with Microsoft debug runtime libraries (for
-	easier debuging on Windows).</dd>
+	easier debugging on Windows).</dd>
 <dt>--enable-optimize=flags / <em>--disable-debug</em></dt>
 	<dd>Enable or disable optimization, or set special compiler
 	flags.</dd>
@@ -223,5 +221,5 @@ cd ..
 </pre>
 
 <?php
-FinaliseHTML('$OpenPave: www/building.php,v 1.1 2007/09/15 01:50:35 reg Exp $');
+FinaliseHTML('$OpenPave: www/building.php,v 1.2 2008/01/08 23:47:59 reg Exp $');
 ?>

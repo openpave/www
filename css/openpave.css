@@ -1,7 +1,7 @@
 /*
  *  openpave.css - Global styles for www.openpave.org
  *
- *  $OpenPave: www/css/openpave.css,v 1.8 2007/09/15 01:50:41 reg Exp $
+ *  $OpenPave: www/css/openpave.css,v 1.9 2008/01/08 23:48:04 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -16,9 +16,7 @@
  *  the License for the specific language governing rights and
  *  limitations under the License.
  *
- *  The Original Code is OpenPave.org Web pages.
- *
- *  The Initial Developer of the Original Code is OpenPave.org.
+ *  The Initial Developer of the Original Software is Jeremy Lea.
  *
  *  Portions Copyright (C) 2006 OpenPave.org.
  *
@@ -302,7 +300,8 @@ This should have looked nice, but it looks ugly...
     margin-left: 15px;
     margin-right: -150px;
     font-size: medium;
-    font-family: Verdana, Arial,Helvetica,sans-serif;
+    /*font-family: Verdana,Arial,Helvetica,sans-serif;*/
+    font-family: Georgia,Times New Roman,Times,serif;
 }
 
 * html #body { /* Another IE6 hack... */
@@ -314,6 +313,7 @@ This should have looked nice, but it looks ugly...
 }
 
 #body h2 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
     font-variant: small-caps;
     font-size: large;
     font-weight: bold;
@@ -321,9 +321,14 @@ This should have looked nice, but it looks ugly...
 }
 
 #body h3 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
     font-size: medium;
     font-weight: bold;
     text-align: left;
+}
+
+#body p {
+    /*text-align: justify;*/
 }
 
 #body pre {

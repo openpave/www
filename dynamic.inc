@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.4 2007/02/08 19:18:04 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.5 2008/01/08 23:47:59 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -17,9 +17,7 @@
  *  the License for the specific language governing rights and
  *  limitations under the License.
  *
- *  The Original Code is OpenPave.org Web pages.
- *
- *  The Initial Developer of the Original Code is OpenPave.org.
+ *  The Initial Developer of the Original Software is Jeremy Lea.
  *
  *  Portions Copyright (C) 2006 OpenPave.org.
  *
@@ -69,7 +67,8 @@ if (!isset($section) || !isset($subsection)) {
 function make_li_link($k,$v) {
 	global $depth, $active;
 	
-	$k = ($k == $active ? 'active' : $depth.$k.'.php');
+	$k = ($k == $active ? 'active' : 
+		$k == 'index' ? $depth : $depth.$k.'.php');
 	if ($i = strpos($v,'<'))
 		$k = substr($v,$i+1,strpos($v,'>')-$i-1);
 	$v = trim(ereg_replace('<.*>','',$v));
@@ -170,7 +169,7 @@ function FinaliseHTML($op_cvs)
 </div>
 
 <div id="footer">
- <div id="copyright">&copy; 2006, Openpave.org.<br>
+ <div id="copyright">&copy; 2008, Openpave.org.<br>
   <a href="mailto:www@openpave.org">Contact the webmaster.</a><br>
   <span class="op_cvs"><?php
   	 echo str_replace(array('www/',',v','Exp '),array('','<br>',''),$op_cvs);

@@ -2,7 +2,7 @@
 /*
  *  projects.php - OpenPave.org Projects
  *
- *  $OpenPave: www/projects.php,v 1.2 2007/02/08 19:18:04 reg Exp $
+ *  $OpenPave: www/projects.php,v 1.3 2008/01/08 23:47:59 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -17,9 +17,7 @@
  *  the License for the specific language governing rights and
  *  limitations under the License.
  *
- *  The Original Code is OpenPave.org Web pages.
- *
- *  The Initial Developer of the Original Code is OpenPave.org.
+ *  The Initial Developer of the Original Software is Jeremy Lea.
  *
  *  Portions Copyright (C) 2006 OpenPave.org.
  *
@@ -47,5 +45,5 @@ and can be found in CVS or downloaded.
 </dl>
 
 <?php
-FinaliseHTML('$OpenPave: www/projects.php,v 1.2 2007/02/08 19:18:04 reg Exp $');
+FinaliseHTML('$OpenPave: www/projects.php,v 1.3 2008/01/08 23:47:59 reg Exp $');
 ?>

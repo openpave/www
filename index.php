@@ -2,7 +2,7 @@
 /*
  *  index.php - The OpenPave.org homepage
  *
- *  $OpenPave: www/index.php,v 1.2 2007/02/08 19:18:04 reg Exp $
+ *  $OpenPave: www/index.php,v 1.3 2008/01/08 23:47:59 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -17,9 +17,7 @@
  *  the License for the specific language governing rights and
  *  limitations under the License.
  *
- *  The Original Code is OpenPave.org Web pages.
- *
- *  The Initial Developer of the Original Code is OpenPave.org.
+ *  The Initial Developer of the Original Software is Jeremy Lea.
  *
  *  Portions Copyright (C) 2006 OpenPave.org.
  *
@@ -34,7 +32,7 @@ StartHTML();
 <h2>Welcome</h2>
 
 <p>Welcome to OpenPave.org, the home of open source pavement engineering
-software!  Open source software allows you, the user, to access the source
+software.  Open source software allows you, the user, to access the source
 code for your software so that you can both see how it works and change it
 to better perform the tasks for which you are using it.  This is
 particularly valuable in engineering where you often need specialized
@@ -55,10 +53,10 @@ intended to compete with commercial offerings, and currently only includes
 the calculation 'engines', and no user interface code.</p>
 
 <p>OpenPave.org code is distributed under the Academic Development and
-Distribution License, which is similar to the Mozilla Public License, with
-an added clause requiring that code used for academic publications be
-published.</p>
+Distribution License, which is similar to the Mozilla Public License (which
+is used by the Firefox webbrowser), with an added clause requiring that code
+used for academic publications be distributed.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/index.php,v 1.2 2007/02/08 19:18:04 reg Exp $');
+FinaliseHTML('$OpenPave: www/index.php,v 1.3 2008/01/08 23:47:59 reg Exp $');
 ?>
