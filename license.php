@@ -2,7 +2,7 @@
 /*
  *  license.php - The ADDL license in nice format
  *
- *  $OpenPave: www/license.php,v 1.3 2008/01/08 23:47:59 reg Exp $
+ *  $OpenPave: www/license.php,v 1.4 2008/01/09 05:02:26 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -21,7 +21,7 @@
  *
  *  The Initial Developer of the Original Software is Jeremy Lea.
  *
- *  Portions Copyright (C) 2006 OpenPave.org.
+ *  Portions Copyright (C) 2006-2008 OpenPave.org.
  *
  *  Contributor(s): Jeremy Lea <reg@openpave.org>.
  */
@@ -416,5 +416,5 @@ ACADEMIC DEVELOPMENT AND DISTRIBUTION LICENSE (ADDL) Version 1.0
 </pre>
 
 <?php
-FinaliseHTML('$OpenPave: www/license.php,v 1.3 2008/01/08 23:47:59 reg Exp $');
+FinaliseHTML('$OpenPave: www/license.php,v 1.4 2008/01/09 05:02:26 reg Exp $');
 ?>

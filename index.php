@@ -2,7 +2,7 @@
 /*
  *  index.php - The OpenPave.org homepage
  *
- *  $OpenPave: www/index.php,v 1.3 2008/01/08 23:47:59 reg Exp $
+ *  $OpenPave: www/index.php,v 1.4 2008/01/09 05:02:26 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -19,7 +19,7 @@
  *
  *  The Initial Developer of the Original Software is Jeremy Lea.
  *
- *  Portions Copyright (C) 2006 OpenPave.org.
+ *  Portions Copyright (C) 2006-2008 OpenPave.org.
  *
  *  Contributor(s): Jeremy Lea <reg@openpave.org>.
  */
@@ -58,5 +58,5 @@ is used by the Firefox webbrowser), with an added clause requiring that code
 used for academic publications be distributed.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/index.php,v 1.3 2008/01/08 23:47:59 reg Exp $');
+FinaliseHTML('$OpenPave: www/index.php,v 1.4 2008/01/09 05:02:26 reg Exp $');
 ?>

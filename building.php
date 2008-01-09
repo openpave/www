@@ -2,7 +2,7 @@
 /*
  *  building.php - OpenPave.org Documentation
  *
- *  $OpenPave: www/building.php,v 1.2 2008/01/08 23:47:59 reg Exp $
+ *  $OpenPave: www/building.php,v 1.3 2008/01/09 05:02:26 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -19,7 +19,7 @@
  *
  *  The Initial Developer of the Original Software is Jeremy Lea.
  *
- *  Portions Copyright (C) 2006 OpenPave.org.
+ *  Portions Copyright (C) 2006-2008 OpenPave.org.
  *
  *  Contributor(s): Jeremy Lea <reg@openpave.org>.
  */
@@ -221,5 +221,5 @@ cd ..
 </pre>
 
 <?php
-FinaliseHTML('$OpenPave: www/building.php,v 1.2 2008/01/08 23:47:59 reg Exp $');
+FinaliseHTML('$OpenPave: www/building.php,v 1.3 2008/01/09 05:02:26 reg Exp $');
 ?>
