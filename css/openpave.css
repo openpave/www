@@ -1,7 +1,7 @@
 /*
  *  openpave.css - Global styles for www.openpave.org
  *
- *  $OpenPave: www/css/openpave.css,v 1.10 2008/01/09 05:02:31 reg Exp $
+ *  $OpenPave: www/css/openpave.css,v 1.11 2008/01/12 02:48:03 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -300,8 +300,8 @@ This should have looked nice, but it looks ugly...
     margin-left: 15px;
     margin-right: -150px;
     font-size: medium;
-    /*font-family: Verdana,Arial,Helvetica,sans-serif;*/
-    font-family: Georgia,Times New Roman,Times,serif;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    /*font-family: Georgia,Times New Roman,Times,serif;*/
 }
 
 * html #body { /* Another IE6 hack... */
@@ -333,11 +333,42 @@ This should have looked nice, but it looks ugly...
 
 #body pre {
     background: #A0C0A0;
-    font-size: 1.1em;
-    line-height: 1.1em;
     border: dashed #435A43 1px;
     padding: 15px 20px 15px 20px;
+    font-size: 1.1em;
+    line-height: 1.1em;
     overflow: auto;
+}
+
+#body table {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    border-collapse: collapse;
+}
+
+#body table thead td {
+    background: #A0C0A0;
+    border: solid #435A43 1px;
+    margin: 0px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#body table tbody th {
+    width: 20%;
+    border: solid #435A43 1px;
+    margin: 0px;
+    padding: 2px 5px 2px 5px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#body table tbody td {
+    border: solid #435A43 1px;
+    margin: 0px;
+    padding: 2px 5px 2px 5px;
+    text-align: left;
 }
 
 #footer {

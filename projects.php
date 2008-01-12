@@ -2,7 +2,7 @@
 /*
  *  projects.php - OpenPave.org Projects
  *
- *  $OpenPave: www/projects.php,v 1.4 2008/01/09 05:02:26 reg Exp $
+ *  $OpenPave: www/projects.php,v 1.5 2008/01/12 02:47:58 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -38,12 +38,54 @@ source license which is compatible with the ADDL.
 <p>The following projects have been released under the OpenPave.org banner
 and can be found in CVS or downloaded.
 
-<dl>
-<dt>OpenPave.org Core Libraries</dt>
-	<dd>A n-layer, n-load, n-point multi-layer elastic half space
-    calculation, written in C++.</dd>
-</dl>
+<table>
+<thead><tr>
+	<td colspan="2">OpenPave.org Core Libraries</td>
+</tr></thead>
+<tbody>
+<tr>
+	<th>Description</th>
+	<td>A n-layer, n-load, n-point multi-layer elastic half space
+    	calculation, written in C++.</td>
+</tr>
+<tr>
+	<th>Owner</th>
+	<td><a href="mailto:reg@openpave.org">Jeremy Lea</a></td>
+</tr>
+<tr>
+	<th>Source Code</th>
+	<td><a href="/cgi-bin/cvsweb.cgi/openpave/src/">Browse using
+		CVSWEB</a></td>
+</tr>
+<tr>
+	<th>Download</th>
+	<td><a href="downloads/openpave-20080111.zip">openpave-20080111.zip</a></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead><tr>
+	<td colspan="2">3D Finite Elements for Pavements</td>
+</tr></thead>
+<tbody>
+<tr>
+	<th>Description</th>
+	<td>A fast 3D FEM implementation with special elements for
+		pavements</td>
+</tr>
+<tr>
+	<th>Owner</th>
+	<td><a href="mailto:reg@openpave.org">Jeremy Lea</a></td>
+</tr>
+<tr>
+	<th>Source Code</th>
+	<td><a href="/cgi-bin/cvsweb.cgi/openpave/fem3d/">Browse using
+		CVSWEB</a></td>
+</tr>
+</tbody>
+</table>
 
 <?php
-FinaliseHTML('$OpenPave: www/projects.php,v 1.4 2008/01/09 05:02:26 reg Exp $');
+FinaliseHTML('$OpenPave: www/projects.php,v 1.5 2008/01/12 02:47:58 reg Exp $');
 ?>

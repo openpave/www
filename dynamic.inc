@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.6 2008/01/09 05:02:26 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.7 2008/01/12 02:47:58 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -68,7 +68,7 @@ function make_li_link($k,$v) {
 	global $depth, $active;
 	
 	$k = ($k == $active ? 'active' : 
-		$k == 'index' ? $depth : $depth.$k.'.php');
+		($k == 'index' ? $depth : $depth.$k.'.php'));
 	if ($i = strpos($v,'<'))
 		$k = substr($v,$i+1,strpos($v,'>')-$i-1);
 	$v = trim(ereg_replace('<.*>','',$v));
