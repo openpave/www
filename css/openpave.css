@@ -1,7 +1,7 @@
 /*
  *  openpave.css - Global styles for www.openpave.org
  *
- *  $OpenPave: www/css/openpave.css,v 1.11 2008/01/12 02:48:03 reg Exp $
+ *  $OpenPave: www/css/openpave.css,v 1.12 2008/01/13 20:59:54 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -369,6 +369,20 @@ This should have looked nice, but it looks ugly...
     margin: 0px;
     padding: 2px 5px 2px 5px;
     text-align: left;
+}
+
+#body div.note {
+    background: #A0C0A0;
+    border: solid #435A43 1px;
+    margin: 10px 0px 10px 10px;
+    padding: 5px 10px 5px 10px;
+    float: right;
+    width: 25%;
+}
+
+#body div.note a {
+    text-decoration: underline;
+    color: black;
 }
 
 #footer {

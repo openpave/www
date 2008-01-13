@@ -2,7 +2,7 @@
 /*
  *  index.php - The OpenPave.org homepage
  *
- *  $OpenPave: www/index.php,v 1.4 2008/01/09 05:02:26 reg Exp $
+ *  $OpenPave: www/index.php,v 1.5 2008/01/13 20:59:49 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -47,6 +47,13 @@ other developers.  This is particularly valuable for students wishing to
 explore new algorithms, and for researchers looking to calibrate models
 without the expense of developing from scratch.</p>
 
+<div class="note">
+<p>If you are coming from TRB, welcome.  You might want check out the <a
+href="http://www.openpave.org/downloads/openpave-20080111.zip">example
+Excel spreadsheet</a>, or join a <a
+href="http://www.openpave.org/mailman/listinfo/">mailing list.</a></p>
+</div>
+
 <p>At the moment there is not a lot of code available through OpenPave.org,
 but it is hoped that this will change quickly!  OpenPave.org code is not
 intended to compete with commercial offerings, and currently only includes
@@ -58,5 +65,5 @@ is used by the Firefox webbrowser), with an added clause requiring that code
 used for academic publications be distributed.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/index.php,v 1.4 2008/01/09 05:02:26 reg Exp $');
+FinaliseHTML('$OpenPave: www/index.php,v 1.5 2008/01/13 20:59:49 reg Exp $');
 ?>
