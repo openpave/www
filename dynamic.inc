@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.8 2008/05/13 00:53:10 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.9 2008/05/13 00:55:40 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -187,11 +187,14 @@ function FinaliseHTML($op_cvs)
        alt="Valid CSS!" /></a>
 </p>-->
 
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
-_uacct = "UA-4396026-1";
-urchinTracker();
+var pageTracker = _gat._getTracker("UA-4396026-1");
+pageTracker._initData();
+pageTracker._trackPageview();
 </script>
 
 </body>
