@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.7 2008/01/12 02:47:58 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.8 2008/05/13 00:53:10 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -186,6 +186,13 @@ function FinaliseHTML($op_cvs)
        src="http://jigsaw.w3.org/css-validator/images/vcss" 
        alt="Valid CSS!" /></a>
 </p>-->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-4396026-1";
+urchinTracker();
+</script>
 
 </body>
 </html>
