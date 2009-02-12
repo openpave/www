@@ -2,7 +2,7 @@
 /*
  *  toc.inc - Master Table of Contents for website
  *
- *  $OpenPave: www/toc.inc,v 1.5 2008/01/09 05:02:26 reg Exp $
+ *  $OpenPave: www/toc.inc,v 1.6 2009/02/12 02:11:15 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -19,7 +19,7 @@
  *
  *  The Initial Developer of the Original Software is Jeremy Lea.
  *
- *  Portions Copyright (C) 2006-2008 OpenPave.org.
+ *  Portions Copyright (C) 2006-2009 OpenPave.org.
  *
  *  Contributor(s): Jeremy Lea <reg@openpave.org>.
  *

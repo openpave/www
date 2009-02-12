@@ -2,7 +2,7 @@
 /*
  *  projects.php - OpenPave.org Projects
  *
- *  $OpenPave: www/projects.php,v 1.6 2009/02/12 01:46:15 reg Exp $
+ *  $OpenPave: www/projects.php,v 1.7 2009/02/12 02:11:15 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -19,7 +19,7 @@
  *
  *  The Initial Developer of the Original Software is Jeremy Lea.
  *
- *  Portions Copyright (C) 2006-2008 OpenPave.org.
+ *  Portions Copyright (C) 2006-2009 OpenPave.org.
  *
  *  Contributor(s): Jeremy Lea <reg@openpave.org>.
  */
@@ -62,8 +62,8 @@ and can be found in CVS or downloaded.
 	<td><a href="downloads/openpave-20090211.zip">openpave-20090211.zip</a></td>
 </tr>
 <tr>
-	<th>Screen Shot</th>
-	<td><img width="300px" src="images/op-screenshot1.png" /></td>
+	<th valign="top">Screen Shot</th>
+	<td><img width="100%" src="images/op-screenshot1.png" /></td>
 </tr>
 </tbody>
 </table>
@@ -91,5 +91,5 @@ and can be found in CVS or downloaded.
 </table>
 
 <?php
-FinaliseHTML('$OpenPave: www/projects.php,v 1.6 2009/02/12 01:46:15 reg Exp $');
+FinaliseHTML('$OpenPave: www/projects.php,v 1.7 2009/02/12 02:11:15 reg Exp $');
 ?>

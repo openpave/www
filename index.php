@@ -2,7 +2,7 @@
 /*
  *  index.php - The OpenPave.org homepage
  *
- *  $OpenPave: www/index.php,v 1.6 2009/02/12 01:46:15 reg Exp $
+ *  $OpenPave: www/index.php,v 1.7 2009/02/12 02:11:15 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -19,7 +19,7 @@
  *
  *  The Initial Developer of the Original Software is Jeremy Lea.
  *
- *  Portions Copyright (C) 2006-2008 OpenPave.org.
+ *  Portions Copyright (C) 2006-2009 OpenPave.org.
  *
  *  Contributor(s): Jeremy Lea <reg@openpave.org>.
  */
@@ -41,12 +41,6 @@ your application from scratch, hence the proliferation of small programs
 which are essentially the same.  With open source you can benefit from
 building on a tested base, and all for free!</p>
 
-<p>For you, the developer, open source gives you the ability to implement
-your ideas without building from scratch, and to benefit from the changes of
-other developers.  This is particularly valuable for students wishing to
-explore new algorithms, and for researchers looking to calibrate models
-without the expense of developing from scratch.</p>
-
 <div class="note">
 <p>There is a new release available!  This includes many fixes and speed
 improvements, and the ability to specify the layer in which a point occurs.
@@ -55,6 +49,12 @@ The spreadsheet has also been updated, and is now much more friendly.
 check out the Excel spreadsheet</a>, or join a <a
 href="http://www.openpave.org/mailman/listinfo/">mailing list.</a></p>
 </div>
+
+<p>For you, the developer, open source gives you the ability to implement
+your ideas without building from scratch, and to benefit from the changes of
+other developers.  This is particularly valuable for students wishing to
+explore new algorithms, and for researchers looking to calibrate models
+without the expense of developing from scratch.</p>
 
 <p>At the moment there is not a lot of code available through OpenPave.org,
 but it is hoped that this will change quickly!  OpenPave.org code is not
@@ -66,6 +66,8 @@ Distribution License, which is similar to the Mozilla Public License (which
 is used by the Firefox webbrowser), with an added clause requiring that code
 used for academic publications be distributed.</p>
 
+<br clear="both" />
+
 <?php
-FinaliseHTML('$OpenPave: www/index.php,v 1.6 2009/02/12 01:46:15 reg Exp $');
+FinaliseHTML('$OpenPave: www/index.php,v 1.7 2009/02/12 02:11:15 reg Exp $');
 ?>
