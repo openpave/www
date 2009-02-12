@@ -2,7 +2,7 @@
 /*
  *  projects.php - OpenPave.org Projects
  *
- *  $OpenPave: www/projects.php,v 1.5 2008/01/12 02:47:58 reg Exp $
+ *  $OpenPave: www/projects.php,v 1.6 2009/02/12 01:46:15 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -59,7 +59,11 @@ and can be found in CVS or downloaded.
 </tr>
 <tr>
 	<th>Download</th>
-	<td><a href="downloads/openpave-20080111.zip">openpave-20080111.zip</a></td>
+	<td><a href="downloads/openpave-20090211.zip">openpave-20090211.zip</a></td>
+</tr>
+<tr>
+	<th>Screen Shot</th>
+	<td><img width="300px" src="images/op-screenshot1.png" /></td>
 </tr>
 </tbody>
 </table>
@@ -87,5 +91,5 @@ and can be found in CVS or downloaded.
 </table>
 
 <?php
-FinaliseHTML('$OpenPave: www/projects.php,v 1.5 2008/01/12 02:47:58 reg Exp $');
+FinaliseHTML('$OpenPave: www/projects.php,v 1.6 2009/02/12 01:46:15 reg Exp $');
 ?>

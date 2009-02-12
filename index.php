@@ -2,7 +2,7 @@
 /*
  *  index.php - The OpenPave.org homepage
  *
- *  $OpenPave: www/index.php,v 1.5 2008/01/13 20:59:49 reg Exp $
+ *  $OpenPave: www/index.php,v 1.6 2009/02/12 01:46:15 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -48,9 +48,11 @@ explore new algorithms, and for researchers looking to calibrate models
 without the expense of developing from scratch.</p>
 
 <div class="note">
-<p>If you are coming from TRB, welcome.  You might want check out the <a
-href="http://www.openpave.org/downloads/openpave-20080111.zip">example
-Excel spreadsheet</a>, or join a <a
+<p>There is a new release available!  This includes many fixes and speed
+improvements, and the ability to specify the layer in which a point occurs.
+The spreadsheet has also been updated, and is now much more friendly.
+<a href="http://www.openpave.org/downloads/openpave-20090211.zip">You should
+check out the Excel spreadsheet</a>, or join a <a
 href="http://www.openpave.org/mailman/listinfo/">mailing list.</a></p>
 </div>
 
@@ -65,5 +67,5 @@ is used by the Firefox webbrowser), with an added clause requiring that code
 used for academic publications be distributed.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/index.php,v 1.5 2008/01/13 20:59:49 reg Exp $');
+FinaliseHTML('$OpenPave: www/index.php,v 1.6 2009/02/12 01:46:15 reg Exp $');
 ?>
