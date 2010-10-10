@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.10 2009/02/12 02:11:15 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.11 2010/10/10 00:19:08 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -70,8 +70,8 @@ function make_li_link($k,$v) {
 	$k = ($k == $active ? 'active' : $depth.$k.'.php');
 	if ($i = strpos($v,'<'))
 		$k = substr($v,$i+1,strpos($v,'>')-$i-1);
-	$v = trim(ereg_replace('<.*>','',$v));
-	$v = trim(ereg_replace('\[.*\]','',$v));
+	$v = trim(preg_replace('/<.*>/','',$v));
+	$v = trim(preg_replace('/\[.*\]/','',$v));
 	if ($k == 'active')
 		return "<li class=\"active\">$v";
 	else
@@ -92,7 +92,7 @@ function StartHTML()
 		else
 			$title .= '::'.$toc[$section][$subsection];
 	}
-	$title = ereg_replace('<.*>','',$title);
+	$title = preg_replace('/<.*>/','',$title);
 ?>
 <!DOCTYPE html 
      PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
