@@ -2,7 +2,7 @@
 /*
  *  index.php - The OpenPave.org homepage
  *
- *  $OpenPave: www/index.php,v 1.7 2009/02/12 02:11:15 reg Exp $
+ *  $OpenPave: www/index.php,v 1.8 2013/11/01 18:09:59 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -41,11 +41,11 @@ your application from scratch, hence the proliferation of small programs
 which are essentially the same.  With open source you can benefit from
 building on a tested base, and all for free!</p>
 
-<div class="note">
-<p>There is a new release available!  This includes many fixes and speed
-improvements, and the ability to specify the layer in which a point occurs.
-The spreadsheet has also been updated, and is now much more friendly.
-<a href="http://www.openpave.org/downloads/openpave-20090211.zip">You should
+<div class="note"><p>A 64-bit version is now available!  This should work
+with Office from Office XP through Office 2013 on both 32-bit and 64-bit
+versions.  This also includes some fixes and speed improvements.  The
+spreadsheet has also been updated with more error checking. <a
+href="http://www.openpave.org/downloads/openpave-20131101.zip">You should
 check out the Excel spreadsheet</a>, or join a <a
 href="http://www.openpave.org/mailman/listinfo/">mailing list.</a></p>
 </div>
@@ -69,5 +69,5 @@ used for academic publications be distributed.</p>
 <br clear="both" />
 
 <?php
-FinaliseHTML('$OpenPave: www/index.php,v 1.7 2009/02/12 02:11:15 reg Exp $');
+FinaliseHTML('$OpenPave: www/index.php,v 1.8 2013/11/01 18:09:59 reg Exp $');
 ?>
