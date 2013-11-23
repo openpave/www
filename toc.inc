@@ -2,7 +2,7 @@
 /*
  *  toc.inc - Master Table of Contents for website
  *
- *  $OpenPave: www/toc.inc,v 1.6 2009/02/12 02:11:15 reg Exp $
+ *  $OpenPave: www/toc.inc,v 1.7 2013/11/23 07:08:31 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -33,10 +33,11 @@ $toc = array(
   'index' => array(
     'index' => 'Home',
     'about' => 'About',
-    'license' => 'License',
+    'license' => 'License'
   ),
   'projects' => array(
-    'projects' => 'Projects'
+    'projects' => 'Projects',
+    'calculate' => 'Online'
   ),
   'documents' => array(
     'documents' => 'Documentation',
@@ -47,7 +48,7 @@ $toc = array(
     'mail' => 'Mailing Lists </mailman/listinfo/>',
     'cvs' => 'CVS Repository </cgi-bin/cvsweb.cgi/>',
     'bugs' => 'Issue Tracker </cgi-bin/roundup.cgi/roundup/>'
-  ),
+  )
 );
 
 ?>

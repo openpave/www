@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.11 2010/10/10 00:19:08 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.12 2013/11/23 07:08:31 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -78,7 +78,7 @@ function make_li_link($k,$v) {
 		return "<li><a href=\"$k\">$v</a>";
 }
 
-function StartHTML()
+function StartHTML($css = array(), $js = array())
 {
 	global $depth, $toc, $section, $subsection, $active;
 
@@ -101,22 +101,19 @@ function StartHTML()
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" type="text/css" href="<?php echo $depth; ?>css/openpave.css" />
+<?php
+	foreach($css as $v) {
+		echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"$v\" />";
+	}
+	foreach($js as $v) {
+		echo "<script type=\"text/javascript\" src=\"$v\"></script>";
+	}
+?>
 <title><?php echo $title ?></title>
 </head>
 <body>
 <div id="topbar">
-<?php /*
-<div id="search">
-<form action="http://www.FreeBSD.org/cgi/search.cgi" method="get">
-<h2 class="hide"><label for="words">Search</label></h2>
-<input class="text" name="words" type="text" size="20" maxlength="255"
-onfocus="if( this.value==this.defaultValue ) this.value='';" value="Search" />
-<input class="submit" name="submit" type="submit" value="Search" />
-</form>
-</div>
-*/ ?>
 <h1 id="logo">OpenPave.org</h1>
-
 <div id="sitenav">
 <h2 class="hide">Site Navigation</h2>
 <?php
@@ -168,7 +165,7 @@ function FinaliseHTML($op_cvs)
 </div>
 
 <div id="footer">
- <div id="copyright">&copy; 2009, Openpave.org.<br>
+ <div id="copyright">&copy; 2013, Openpave.org.<br>
   <a href="mailto:www@openpave.org">Contact the webmaster.</a><br>
   <span class="op_cvs"><?php
   	 echo str_replace(array('www/',',v','Exp '),array('','<br>',''),$op_cvs);
