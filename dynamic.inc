@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.13 2014/06/18 23:22:06 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.14 2014/06/20 00:07:22 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -165,8 +165,12 @@ function FinaliseHTML($op_cvs)
 </div>
 
 <div id="footer">
- <div id="copyright">&copy; 2013, Openpave.org.<br>
-  <a href="https://plus.google.com/114872276418591113496" rel="publisher">Google+</a> - 
+ <div id="copyright">
+<a href="//plus.google.com/u/0/114872276418591113496?prsrc=3"
+   rel="publisher" target="_top" style="text-decoration:none;">
+<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
+</a>
+  <br>&copy; 2014, Openpave.org.<br>
   <a href="mailto:www@openpave.org">Contact the webmaster.</a><br>
   <span class="op_cvs"><?php
   	 echo str_replace(array('www/',',v','Exp '),array('','<br>',''),$op_cvs);
