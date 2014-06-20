@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.15 2014/06/20 00:45:33 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.16 2014/06/20 00:50:57 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -192,6 +192,8 @@ function FinaliseHTML($op_cvs)
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
 var pageTracker = _gat._getTracker("UA-4396026-1");
 pageTracker._initData();
 pageTracker._trackPageview();
