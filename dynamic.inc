@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.14 2014/06/20 00:07:22 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.15 2014/06/20 00:45:33 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -166,11 +166,12 @@ function FinaliseHTML($op_cvs)
 
 <div id="footer">
  <div id="copyright">
+ <div id="social"
 <a href="//plus.google.com/u/0/114872276418591113496?prsrc=3"
    rel="publisher" target="_top" style="text-decoration:none;">
 <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
-</a>
-  <br>&copy; 2014, Openpave.org.<br>
+</a></div>
+  &copy; 2014, Openpave.org.<br>
   <a href="mailto:www@openpave.org">Contact the webmaster.</a><br>
   <span class="op_cvs"><?php
   	 echo str_replace(array('www/',',v','Exp '),array('','<br>',''),$op_cvs);
@@ -191,13 +192,10 @@ function FinaliseHTML($op_cvs)
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
 var pageTracker = _gat._getTracker("UA-4396026-1");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
-
 </body>
 </html>
 <?php

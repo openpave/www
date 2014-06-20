@@ -1,7 +1,7 @@
 /*
  *  openpave.css - Global styles for www.openpave.org
  *
- *  $OpenPave: www/css/openpave.css,v 1.13 2009/02/12 02:11:19 reg Exp $
+ *  $OpenPave: www/css/openpave.css,v 1.14 2014/06/20 00:45:48 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -409,6 +409,20 @@ This should have looked nice, but it looks ugly...
     margin: 0px;
     width: 180px;
     padding: 0px;
+    font-size: x-small;
+    text-align: right;
+    background-color: transparent;
+    color: #202020;
+}
+
+#social {
+    position: absolute;
+    top: -48px;
+    left: 0px;
+    height: 32px;
+    margin: 0px;
+    width: 164px;
+    padding: 8px;
     font-size: x-small;
     text-align: right;
     background-color: transparent;
