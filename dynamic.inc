@@ -2,7 +2,7 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.16 2014/06/20 00:50:57 reg Exp $
+ * $OpenPave: www/dynamic.inc,v 1.17 2014/06/20 00:52:38 reg Exp $
  *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
@@ -166,7 +166,7 @@ function FinaliseHTML($op_cvs)
 
 <div id="footer">
  <div id="copyright">
- <div id="social"
+ <div id="social">
 <a href="//plus.google.com/u/0/114872276418591113496?prsrc=3"
    rel="publisher" target="_top" style="text-decoration:none;">
 <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
