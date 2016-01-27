@@ -2,8 +2,6 @@
 /*
  *  documents.php - OpenPave.org Documentation
  *
- *  $OpenPave: www/documents.php,v 1.5 2009/02/12 02:11:15 reg Exp $
- *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
  *  use this file except in compliance with the License.  You should
@@ -42,5 +40,5 @@ on getting started, and on using and programming.</p>
 </dl>
 
 <?php
-FinaliseHTML('$OpenPave: www/documents.php,v 1.5 2009/02/12 02:11:15 reg Exp $');
+FinaliseHTML('');
 ?>

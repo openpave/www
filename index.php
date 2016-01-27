@@ -2,8 +2,6 @@
 /*
  *  index.php - The OpenPave.org homepage
  *
- *  $OpenPave: www/index.php,v 1.8 2013/11/01 18:09:59 reg Exp $
- *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
  *  use this file except in compliance with the License.  You should
@@ -69,5 +67,5 @@ used for academic publications be distributed.</p>
 <br clear="both" />
 
 <?php
-FinaliseHTML('$OpenPave: www/index.php,v 1.8 2013/11/01 18:09:59 reg Exp $');
+FinaliseHTML('');
 ?>

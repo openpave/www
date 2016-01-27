@@ -2,8 +2,6 @@
 /*
  *  building.php - OpenPave.org Documentation
  *
- *  $OpenPave: www/building.php,v 1.4 2009/02/12 02:11:15 reg Exp $
- *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
  *  use this file except in compliance with the License.  You should
@@ -221,5 +219,5 @@ cd ..
 </pre>
 
 <?php
-FinaliseHTML('$OpenPave: www/building.php,v 1.4 2009/02/12 02:11:15 reg Exp $');
+FinaliseHTML('');
 ?>

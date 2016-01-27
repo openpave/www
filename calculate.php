@@ -2,8 +2,6 @@
 /*
  *  calculate.php - About OpenPave.org
  *
- *  $OpenPave: www/calculate.php,v 1.1 2013/11/23 07:08:31 reg Exp $
- *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
  *  use this file except in compliance with the License.  You should
@@ -34,5 +32,5 @@ StartHTML(array(),array('//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min
 <p>Work in progress...</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/calculate.php,v 1.1 2013/11/23 07:08:31 reg Exp $');
+FinaliseHTML('');
 ?>

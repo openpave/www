@@ -2,8 +2,6 @@
 /*
  *  dynamic.inc - General functions for dynamic HTML generation
  *
- * $OpenPave: www/dynamic.inc,v 1.17 2014/06/20 00:52:38 reg Exp $
- *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
  *  use this file except in compliance with the License.  You should

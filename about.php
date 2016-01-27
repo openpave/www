@@ -2,8 +2,6 @@
 /*
  *  about.php - About OpenPave.org
  *
- *  $OpenPave: www/about.php,v 1.5 2009/02/12 02:11:15 reg Exp $
- *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
  *  use this file except in compliance with the License.  You should
@@ -55,5 +53,5 @@ to the server and CVS access, along with an email address and a place to
 host web pages.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/about.php,v 1.5 2009/02/12 02:11:15 reg Exp $');
+FinaliseHTML('');
 ?>

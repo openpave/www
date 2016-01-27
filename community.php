@@ -2,8 +2,6 @@
 /*
  *  community.php - OpenPave.org Community
  *
- *  $OpenPave: www/community.php,v 1.6 2009/02/12 02:11:15 reg Exp $
- *
  *  The contents of this file are subject to the Academic Development
  *  and Distribution License Version 1.0 (the "License"); you may not
  *  use this file except in compliance with the License.  You should
@@ -53,5 +51,5 @@ can be accessed via at <a href="/cgi-bin/roundup.cgi/roundup/">
 http://www.openpave.org/cgi-bin/roundup.cgi/roundup/</a>.</p>
 
 <?php
-FinaliseHTML('$OpenPave: www/community.php,v 1.6 2009/02/12 02:11:15 reg Exp $');
+FinaliseHTML('');
 ?>
