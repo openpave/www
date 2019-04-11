@@ -164,16 +164,9 @@ function FinaliseHTML($op_cvs)
 
 <div id="footer">
  <div id="copyright">
- <div id="social">
-<a href="//plus.google.com/u/0/114872276418591113496?prsrc=3"
-   rel="publisher" target="_top" style="text-decoration:none;">
-<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
-</a></div>
-  &copy; 2014, Openpave.org.<br>
-  <a href="mailto:www@openpave.org">Contact the webmaster.</a><br>
-  <span class="op_cvs"><?php
-  	 echo str_replace(array('www/',',v','Exp '),array('','<br>',''),$op_cvs);
-  ?></span>
+ <div id="social"></div>
+  &copy; 2019, Openpave.org.<br>
+  <a href="mailto:www@openpave.org">Contact the webmaster.</a>
  </div>
 </div>
 
