@@ -46,11 +46,7 @@ Windows.</p>
 trying to open source their pavement engineering code, including some
 moves to open source the MEPDG software.</p>
 
-<p>OpenPave.org is currently hosted at UC Davis, on a spare computer,
-running FreeBSD.  OpenPave.org accounts are available to anyone who shows
-interest in contributing to the project.  An account gives you shell access
-to the server and CVS access, along with an email address and a place to
-host web pages.</p>
+<p>OpenPave.org is currently hosted at UC Davis.</p>
 
 <?php
 FinaliseHTML('');
