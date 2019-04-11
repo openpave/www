@@ -43,7 +43,7 @@ building on a tested base, and all for free!</p>
 with Office from Office XP through Office 2013 on both 32-bit and 64-bit
 versions.  This also includes some fixes and speed improvements.  The
 spreadsheet has also been updated with more error checking. <a
-href="http://www.openpave.org/downloads/openpave-20141121.zip">You should
+href="http://www.openpave.org/downloads/openpave-20171128.zip">You should
 check out the Excel spreadsheet</a>, or join a <a
 href="http://www.openpave.org/mailman/listinfo/">mailing list.</a></p>
 </div>
