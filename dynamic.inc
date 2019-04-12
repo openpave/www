@@ -107,6 +107,7 @@ function StartHTML($css = array(), $js = array())
 		echo "<script type=\"text/javascript\" src=\"$v\"></script>";
 	}
 ?>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 <title><?php echo $title ?></title>
 </head>
 <body>
@@ -164,7 +165,11 @@ function FinaliseHTML($op_cvs)
 
 <div id="footer">
  <div id="copyright">
- <div id="social"></div>
+ <div id="social">
+  <a class="github-button" href="https://github.com/openpave"
+     data-size="large" aria-label="Follow @openpave on GitHub">Follow us on
+     GitHub</a>
+ </div>
   &copy; 2019, Openpave.org.<br>
   <a href="mailto:www@openpave.org">Contact the webmaster.</a>
  </div>
