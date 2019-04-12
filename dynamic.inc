@@ -107,7 +107,7 @@ function StartHTML($css = array(), $js = array())
 		echo "<script type=\"text/javascript\" src=\"$v\"></script>";
 	}
 ?>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript" src="https://buttons.github.io/buttons.js"></script>
 <title><?php echo $title ?></title>
 </head>
 <body>
