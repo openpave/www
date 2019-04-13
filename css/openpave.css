@@ -423,6 +423,7 @@ This should have looked nice, but it looks ugly...
     padding: 8px;
     font-size: medium;
     text-align: right;
+    line-height: 32px;
     background-color: transparent;
     color: #202020;
 }
