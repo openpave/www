@@ -34,7 +34,7 @@ engineering, and is released under either the ADDL license or another open
 source license which is compatible with the ADDL.
 
 <p>The following projects have been released under the OpenPave.org banner
-and can be found in CVS or downloaded.
+and can be found on GitHub or downloaded.
 
 <table>
 <thead><tr>
@@ -52,12 +52,12 @@ and can be found in CVS or downloaded.
 </tr>
 <tr>
 	<th>Source Code</th>
-	<td><a href="/cgi-bin/cvsweb.cgi/openpave/src/">Browse using
+	<td><a href="https://github.com/openpave/src/tree/master/src">Browse using
 		CVSWEB</a></td>
 </tr>
 <tr>
 	<th>Download</th>
-	<td><a href="downloads/openpave-20141121.zip">openpave-20141121.zip</a></td>
+	<td><a href="downloads/openpave-20171128.zip">openpave-20171128.zip</a></td>
 </tr>
 <tr>
 	<th valign="top">Screen Shot</th>
@@ -82,7 +82,7 @@ and can be found in CVS or downloaded.
 </tr>
 <tr>
 	<th>Source Code</th>
-	<td><a href="/cgi-bin/cvsweb.cgi/openpave/fem3d/">Browse using
+	<td><a href="https://github.com/openpave/src/tree/master/fem3d">Browse using
 		CVSWEB</a></td>
 </tr>
 </tbody>

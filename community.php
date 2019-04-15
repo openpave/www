@@ -32,23 +32,14 @@ StartHTML();
 <p>Open source software is built by communities, and as such open source
 projects need to provide an infrastructure in which that community can
 work.  The heart of an open source project is the source code
-repository.  OpenPave.org uses <a href="http://www.nongnu.org/cvs/">
-CVS</a>, which is a used by a very large number of projects.  It was
-chosen because of its good <a href="http://www.wincvs.org/">Windows
-support</a>.  The OpenPave.org CVS Repository can be browsed online at
-<a href="/cgi-bin/cvsweb.cgi/">
-http://www.openpave.org/cgi-bin/cvsweb.cgi/</a>, although to use the
-code you will need to follow the build instructions.</p>
-
-<p>The other major component of community is mailing lists, which
-provide the forum for discussion.  There are a number of OpenPave.org
-mailing lists which you can join.  These are available via the 
-<a href="/mailman/listinfo">Mailman interface</a>.</p>
-
-<p>Finally, there is also a need to track bugs, feature requests and
-other issues.  OpenPave.org makes use of Roundup for this task, and this
-can be accessed via at <a href="/cgi-bin/roundup.cgi/roundup/">
-http://www.openpave.org/cgi-bin/roundup.cgi/roundup/</a>.</p>
+repository.  OpenPave.org uses <a href="https://github.com/">
+GitHub</a>, which is a used by a very large number of projects.  
+The OpenPave.org GitHub repositories can be browsed online at
+<a href="https://github.com/openpave/">
+https://github.com/openpave/</a>, although to use the
+code you will need to follow the build instructions or download a 
+pre-built application.</p>  GitHub is also used for issue tracking and
+other features.
 
 <?php
 FinaliseHTML('');

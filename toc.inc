@@ -42,10 +42,7 @@ $toc = array(
     'building' => 'Build Instructions'
   ),
   'community' => array(
-    'community' => 'Community',
-    'mail' => 'Mailing Lists </mailman/listinfo/>',
-    'cvs' => 'CVS Repository </cgi-bin/cvsweb.cgi/>',
-    'bugs' => 'Issue Tracker </cgi-bin/roundup.cgi/roundup/>'
+    'community' => 'Community'
   )
 );
 

@@ -44,8 +44,8 @@ with Office from Office XP through Office 2013 on both 32-bit and 64-bit
 versions.  This also includes some fixes and speed improvements.  The
 spreadsheet has also been updated with more error checking. <a
 href="http://www.openpave.org/downloads/openpave-20171128.zip">You should
-check out the Excel spreadsheet</a>, or join a <a
-href="http://www.openpave.org/mailman/listinfo/">mailing list.</a></p>
+check out the Excel spreadsheet</a>, or follow us on <a
+href="https://github.com/openpave/">GitHib</a>.</p>
 </div>
 
 <p>For you, the developer, open source gives you the ability to implement
@@ -61,7 +61,7 @@ the calculation 'engines', and no user interface code.</p>
 
 <p>OpenPave.org code is distributed under the Academic Development and
 Distribution License, which is similar to the Mozilla Public License (which
-is used by the Firefox webbrowser), with an added clause requiring that code
+is used by the Firefox web browser), with an added clause requiring that code
 used for academic publications be distributed.</p>
 
 <br clear="both" />
