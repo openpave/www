@@ -28,14 +28,14 @@ require($depth.'toc.inc');
 /*
  * Fix up quoted variables in all the pages if needed.
  */
-if (get_magic_quotes_gpc()) {
+/*if (get_magic_quotes_gpc()) {
 	foreach ($_GET as $k => $v)
 		$_GET[$k] = (is_array($v) ? $v : stripslashes($v));
 	foreach ($_POST as $k => $v)
 		$_POST[$k] = (is_array($v) ? $v : stripslashes($v));
 	foreach ($_COOKIE as $k => $v)
 		$_COOKIE[$k] = (is_array($v) ? $v : stripslashes($v));
-}
+}*/
 
 $active = $_SERVER['PHP_SELF'];
 $active = substr($active,strrpos($active,'/')+1);
