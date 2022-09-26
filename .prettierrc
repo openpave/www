@@ -1,0 +1,16 @@
+{
+	"svelteSortOrder": "options-scripts-markup-styles",
+	"svelteStrictMode": false,
+	"svelteBracketNewLine": false,
+	"svelteAllowShorthand": false,
+	"svelteIndentScriptAndStyle": false,
+	"bracketSameLine": false,
+	"useTabs": true,
+	"tabWidth": 4,
+	"semi": true,
+	"trailingComma": "all",
+	"singleQuote": true,
+	"printWidth": 100,
+	"pluginSearchDirs": ["."],
+	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
+}
