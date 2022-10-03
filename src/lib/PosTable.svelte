@@ -84,28 +84,27 @@ function addPos(index: number) {
 	<table class="input">
 		<thead>
 			<tr>
-				<th class="border-b border-primary-500 border-opacity-50">Point</th>
+				<th>Point</th>
 				{#each Fields as fld}
-					<th class="border-b border-primary-500 border-opacity-50">{fld.label}</th>
+					<th>{fld.label}</th>
 				{/each}
-				<th class="border-b border-primary-500 border-opacity-50 !px-0 w-6" /><th
-					class="border-none relative !px-3.5 w-0"
+				<th class="md:!px-0 md:w-6" /><td class="md:!px-0 md:w-6 align-bottom"
 					><button
-						class="absolute left-1.5 top-6"
+						class="md:relative md:ml-1 md:top-4"
 						type="button"
 						on:click={() => {
 							addPos(0);
 						}}>+</button
-					></th>
+					></td>
 			</tr>
 		</thead>
 		<tbody>
 			{#each positions ?? [] as pos, index}
 				<tr>
-					<td class="border-b border-primary-500 border-opacity-50">{index + 1}</td>
+					<td><span class="label">Point&nbsp;</span>{index + 1}</td>
 					{#each Fields as { id, label, ...rest }}
-						<td class="border-b border-primary-500 border-opacity-50"
-							><label for="positions.{index}.{id}">Point {index + 1} {label}</label>
+						<td
+							><label for="positions.{index}.{id}">{label}</label>
 							<input
 								type="number"
 								min={rest.min !== undefined ? rest.min : ''}
@@ -116,7 +115,7 @@ function addPos(index: number) {
 								required />
 						</td>
 					{/each}
-					<td class="border-b border-primary-500 border-opacity-50 !px-0 w-6"
+					<td class="md:!px-0 md:w-6"
 						><button
 							type="button"
 							disabled={!positions || positions.length <= 1}
@@ -124,9 +123,9 @@ function addPos(index: number) {
 								removePos(index);
 							}}>-</button
 						></td>
-					<td class="relative !px-3.5 w-0"
+					<td class="md:!px-0 md:w-6"
 						><button
-							class="absolute left-1.5 top-7"
+							class="md:relative ml-1 md:top-4"
 							type="button"
 							on:click={() => {
 								addPos(index + 1);

@@ -44,39 +44,49 @@ export let results: ResultType[];
 </script>
 
 {#if results}
-	<table id="results" class="vertical">
-		<thead>
-			<tr>
-				<th class="border-b border-primary-500 border-opacity-50">Point</th>
-				{#each Object.values(fields) as fld}
-					<th class="border-b border-primary-500 border-opacity-50">{@html fld.label}</th>
-				{/each}
-			</tr>
-		</thead>
-		<tbody>
-			{#each results as r, index}
+	<div class="results">
+		<table class="vertical">
+			<thead>
 				<tr>
-					<td class="border-b border-primary-500 border-opacity-50">{index + 1}</td>
-					{#each Object.entries(r) as [idx, fld]}
-						<td class="border-b border-primary-500 border-opacity-50">
-							{#if ['x','y','z'].includes(idx)}
-								{fld.toFixed(2).replace(/[.][0]+$/,'')}
-							{:else if idx == 'l'}
-								{fld.toFixed(0)}
-							{:else}
-								{fld.toPrecision(3).replace(/[.][0]+$/,'')}
-							{/if}
-						</td>
+					<th class="border-b border-primary-500 border-opacity-50">Point</th>
+					{#each Object.values(fields) as fld}
+						<th class="border-b border-primary-500 border-opacity-50"
+							>{@html fld.label}</th>
 					{/each}
 				</tr>
-			{/each}
-		</tbody>
-	</table>
+			</thead>
+			<tbody>
+				{#each results as r, index}
+					<tr>
+						<td class="border-b border-primary-500 border-opacity-50">{index + 1}</td>
+						{#each Object.entries(r) as [idx, fld]}
+							<td class="border-b border-primary-500 border-opacity-50">
+								{#if ['x', 'y', 'z'].includes(idx)}
+									{fld.toFixed(2).replace(/[.][0]+$/, '')}
+								{:else if idx == 'l'}
+									{fld.toFixed(0)}
+								{:else}
+									{fld.toPrecision(3).replace(/[.][0]+$/, '')}
+								{/if}
+							</td>
+						{/each}
+					</tr>
+				{/each}
+			</tbody>
+		</table>
+	</div>
 {/if}
 
 <style>
+div.results {
+	min-width: 240px;
+	max-width: 68vw;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+
 table.vertical {
-	width: 100%;
+	width: min-content;
 	border-collapse: collapse;
 	display: flex;
 	flex-direction: row;
@@ -96,11 +106,11 @@ table.vertical th {
 }
 table.vertical td,
 table.vertical th {
-	@apply p-2 text-center;
+	@apply p-2 text-center min-w-min whitespace-nowrap;
 	display: block;
 	flex: 1;
 }
-@media only screen and (max-width: 768px),
+/* @media only screen and (max-width: 768px),
 	(min-device-width: 768px) and (max-device-width: 1024px) {
 	table,
 	thead,
@@ -122,8 +132,8 @@ table.vertical th {
 	}
 	td {
 		@apply border-none text-center;
-		position: relative;
 		padding-left: 50%;
 	}
 }
+ */
 </style>

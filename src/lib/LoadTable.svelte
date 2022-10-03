@@ -62,17 +62,17 @@ const { form, validate, data, touched, isValid, setFields, addField, unsetField,
 					l = p * Math.PI * (a / 1000) ** 2;
 					c = 'l';
 					if (l != values[i].l)
-					setTimeout(() => {
-						setFields(`loads[${i}].l`, l);
-					}, 0);
+						setTimeout(() => {
+							setFields(`loads[${i}].l`, l);
+						}, 0);
 				}
 				if (isNaN(p) && !isNaN(l) && !isNaN(a)) {
 					p = l / (Math.PI * (a / 1000) ** 2);
 					c = 'p';
 					if (p != values[i].p)
-					setTimeout(() => {
-						setFields(`loads[${i}].p`, p);
-					}, 0);
+						setTimeout(() => {
+							setFields(`loads[${i}].p`, p);
+						}, 0);
 				}
 				values[i] = { x: values[i].x, y: values[i].y, l: l, p: p, a: a, c: c };
 			}
@@ -104,28 +104,27 @@ function addLoad(index: number) {
 	<table class="input">
 		<thead>
 			<tr>
-				<th class="border-b border-primary-500 border-opacity-50">Load</th>
+				<th>Load</th>
 				{#each Fields as fld}
-					<th class="border-b border-primary-500 border-opacity-50">{fld.label}</th>
+					<th>{fld.label}</th>
 				{/each}
-				<th class="border-b border-primary-500 border-opacity-50 !px-0 w-6" /><th
-					class="border-none relative !px-3.5 w-0"
+				<th class="!px-0 w-6" /><td class="border-none md:!px-0 md:w-6 align-bottom"
 					><button
-						class="absolute left-1.5 top-6"
+						class="md:relative md:ml-1 md:top-4"
 						type="button"
 						on:click={() => {
 							addLoad(0);
 						}}>+</button
-					></th>
+					></td>
 			</tr>
 		</thead>
 		<tbody>
 			{#each loads ?? [] as load, index}
 				<tr>
-					<td class="border-b border-primary-500 border-opacity-50">{index + 1}</td>
+					<td><span class="label">Load&nbsp;</span>{index + 1}</td>
 					{#each Fields as { id, label, ...rest }}
-						<td class="border-b border-primary-500 border-opacity-50"
-							><label for="loads.{index}.{id}">Load {index + 1} {label}</label>
+						<td
+							><label for="loads.{index}.{id}">{label}</label>
 							<input
 								class={id == load.c ? 'computed' : ''}
 								type="number"
@@ -137,7 +136,7 @@ function addLoad(index: number) {
 								required />
 						</td>
 					{/each}
-					<td class="border-b border-primary-500 border-opacity-50 !px-0 w-6"
+					<td class=" md:!px-0 md:w-6"
 						><button
 							type="button"
 							disabled={!loads || loads.length <= 1}
@@ -145,9 +144,9 @@ function addLoad(index: number) {
 								removeLoad(index);
 							}}>-</button
 						></td>
-					<td class="relative !px-3.5 w-0"
+					<td class="md:!px-0 md:w-6"
 						><button
-							class="absolute left-1.5 top-7"
+							class="md:relative ml-1 md:top-4"
 							type="button"
 							on:click={() => {
 								addLoad(index + 1);
@@ -160,7 +159,4 @@ function addLoad(index: number) {
 </form>
 
 <style>
-input.computed {
-	@apply bg-gray-300;
-}
 </style>

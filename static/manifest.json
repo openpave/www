@@ -1,0 +1,32 @@
+{
+	"short_name": "OpenPave",
+	"name": "OpenPave.org Calculators",
+    "display": "standalone",
+	"start_url": "/~reg/build",
+	"icons": [
+		{
+			"src": "favicon.svg",
+			"type": "image/svg+xml",
+			"sizes": "any"
+		}
+	],
+	"background_color": "#408040",
+	"scope": "/",
+	"theme_color": "#408040",
+	"shortcuts": [
+		{
+			"name": "Layer Elastic",
+			"short_name": "LET",
+			"description": "A n-layer, n-load, n-point multi-layer elastic half space calculation",
+			"url": "/~reg/build/let",
+            "icons": [
+                {
+                    "src": "favicon.svg",
+                    "type": "image/svg+xml",
+                    "sizes": "any"
+                }
+            ]
+		}
+	],
+	"description": "Open source pavement engineering software"
+}

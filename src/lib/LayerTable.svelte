@@ -30,7 +30,7 @@ function computeDepth(obj: any, index: number, self: any) {
 		if (isNaN(n) || n == 0) return '';
 		d += n;
 	}
-	return d.toFixed(1).replace(/[.][0]+$/,'');
+	return d.toFixed(1).replace(/[.][0]+$/, '');
 }
 
 const { form, validate, data, isValid, setFields, addField, unsetField } = createForm({
@@ -80,31 +80,30 @@ function addLayer(index: number) {
 	<table class="input">
 		<thead>
 			<tr>
-				<th class="border-b border-primary-500 border-opacity-50">Layer</th>
+				<th>Layer</th>
 				{#each Fields as fld}
-					<th class="border-b border-primary-500 border-opacity-50">{fld.label}</th>
+					<th>{fld.label}</th>
 				{/each}
-				<th class="border-b border-primary-500 border-opacity-50 !px-0 w-6" /><th
-					class="border-none relative !px-3.5 w-0"
+				<th class="!px-0 w-6" /><td class="border-none md:!px-0 md:w-6 align-bottom"
 					><button
-						class="absolute left-1.5 top-6"
+						class="md:relative md:ml-1 md:top-4"
 						type="button"
 						on:click={() => {
 							addLayer(0);
 						}}>+</button
-					></th>
+					></td>
 			</tr>
 		</thead>
 		<tbody>
 			{#each layers ?? [] as layer, index}
 				<tr>
-					<td class="border-b border-primary-500 border-opacity-50">{index + 1}</td>
+					<td><span class="label">Layer&nbsp;</span>{index + 1}</td>
 					{#each Fields as { id, label, ...rest }}
-						<td class="border-b border-primary-500 border-opacity-50"
-							><label for="layers.{index}.{id}">Layer {index + 1} {label}</label>
+						<td
+							><label for="layers.{index}.{id}">{label}</label>
 							{#if id === 'd'}
 								<input
-									class="text-right w-14"
+									class="text-right w-16"
 									type="text"
 									id="layers.{index}.{id}"
 									name="layers.{index}.{id}"
@@ -121,7 +120,7 @@ function addLayer(index: number) {
 							{/if}
 						</td>
 					{/each}
-					<td class="border-b border-primary-500 border-opacity-50 !px-0 w-6"
+					<td class="md:!px-0 md:w-6"
 						><button
 							type="button"
 							disabled={!layers || layers.length <= 1}
@@ -129,9 +128,9 @@ function addLayer(index: number) {
 								removeLayer(index);
 							}}>-</button
 						></td>
-					<td class="relative !px-3.5 w-0"
+					<td class="md:!px-0 md:w-6"
 						><button
-							class="absolute left-1.5 top-7"
+							class="md:relative md:ml-1 md:top-4"
 							type="button"
 							on:click={() => {
 								addLayer(index + 1);

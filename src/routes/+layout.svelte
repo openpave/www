@@ -11,7 +11,6 @@ import { storeRoute, storeDrawer } from '$lib/stores';
 
 import '../theme.postcss';
 import '../app.postcss';
-import { onMount } from 'svelte';
 
 afterNavigate((params: any) => {
 	storeRoute.set($page.url.pathname);

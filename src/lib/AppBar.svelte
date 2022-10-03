@@ -1,5 +1,6 @@
 <script lang="ts">
 import { AppBar, Divider, LightSwitch } from '@brainandbones/skeleton';
+import { base } from '$app/paths';
 
 // Stores
 import { storeDrawer } from '$lib/stores';
@@ -16,7 +17,7 @@ function drawerOpen(): void {
 				alt="Menu"
 				src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgIDxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0zLDZIMjFWOEgzVjZNMywxMUgyMVYxM0gzVjExTTMsMTZIMjFWMThIM1YxNloiIC8+Cjwvc3ZnPg==" />
 		</div>
-		<h1><a href="/" class="font-bold smallcaps">Openpave.org</a></h1>
+		<h1><a href="{base}/" class="font-bold smallcaps">Openpave.org</a></h1>
 	</svelte:fragment>
 
 	<svelte:fragment slot="trail">
